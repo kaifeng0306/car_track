@@ -1,0 +1,6 @@
+<launch>
+
+	<node pkg="tf" type="static_transform_publisher" name="RSM12base" args="0.3 0 0.7 0 0 0 base_link rslidar 100"/>
+		
+</launch>
+

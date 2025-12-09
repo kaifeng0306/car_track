@@ -1,0 +1,2 @@
+# config/tracker_config.yaml
+image_topic: /hikrobot_camera/rgb

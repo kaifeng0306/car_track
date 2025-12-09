@@ -1,0 +1,5 @@
+<launch>
+    <rosparam file="$(find tracking_package)/config/tracker_config.yaml" command="load"/>
+    <node name="tracking_package_node" pkg="tracking_package" type="tracking_package_node" output="screen"/>
+    <node name="pure_pursuit" pkg="tracking_package" type="pure_pursuit" output="screen"/>
+</launch>

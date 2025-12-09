@@ -1,0 +1,18 @@
+<launch>
+    <!-- 包含 car_display 包的 launch 文件 -->
+    <include file="$(find car_display)/launch/start.launch"/>
+    
+    <!-- 包含 radar 包的 launch 文件 
+    <include file="$(find radar)/launch/radar.launch"/>-->
+    
+    <!-- 包含 ros_four1_msg 包的 launch 文件 -->
+    <include file="$(find ros_four1_msg)/launch/chassis.launch"/>
+    
+    <!-- 包含 tracking_package 包的 launch 文件 -->
+    <include file="$(find tracking_package)/launch/tracker.launch"/>
+	
+    <include file="$(find rslidar_sdk)/launch/start.launch"/>
+
+    <include file="$(find hikrobot_camera)/launch/hikrobot_camera_indoor.launch"/>
+
+</launch>

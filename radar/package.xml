@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>radar</name>
+  <version>0.0.1</version>
+  <description>The serial communication package</description>
+
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>roscpp</build_depend>
+  <build_depend>serial</build_depend>
+  <depend>std_msgs</depend>
+  
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>serial</exec_depend>
+
+  <export>
+  </export>
+</package>
+
